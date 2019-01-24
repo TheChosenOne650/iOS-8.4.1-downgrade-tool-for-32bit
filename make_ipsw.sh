@@ -17,7 +17,7 @@ do
             ;;
         "iPhone 4S")
             echo building ipsw for iPhone4,1 please wait...
-			./Tools/ipsw iPhone4,1_8.4.1_12H321_Restore.ipsw iPhone4,1_8.4.1_12H321_Odysseus.ipsw --memory --ota Tools/Manifests/N94AP.plist
+			./Tools/ipsw iPhone4,1_8.4.1_12H321_Restore.ipsw iPhone4,1_8.4.1_12H321_Odysseus.ipsw --memory --ota Tools/Manifests/N94AP.plist --bbupdate
 			echo ipsw creation complete
 			break
             ;;
