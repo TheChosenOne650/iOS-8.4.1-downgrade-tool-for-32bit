@@ -1,3 +1,4 @@
+#!/bin/bash
 echo Make sure your device is in kDFU mode
 echo you can do this on most devices using an app in Cydia repo: repo.tihmstar.net
 sleep 3
