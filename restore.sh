@@ -16,13 +16,11 @@ do
         "iPhone 4S")
             echo Restoring iPhone4,1 please wait...
 			./tools/idevicerestore -e -o Tools/Manifests/N94AP.plist iPhone4,1_8.4.1_12H321_Odysseus.ipsw 
-			echo ipsw creation complete
 			break
             ;;
         "iPad Mini WiFi")
             echo Restoring iPad2,5 please wait...
 			./tools/idevicerestore -e -o Tools/Manifests/P105AP.plist iPad2,5_8.4.1_12H321_Odysseus.ipsw 
-			echo ipsw creation complete
 			break
             ;;
         "Quit")
